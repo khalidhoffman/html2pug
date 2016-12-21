@@ -1,10 +1,11 @@
 {
   "name": "html2pug",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Converts HTML to Pug",
   "main": "lib/index.js",
   "bin": {
-    "html2pug": "lib/cli.js"
+    "html2pug": "lib/cli.js",
+    "php2pug": "lib/cli.js"
   },
   "dependencies": {
     "arrify": "^1.0.1",
