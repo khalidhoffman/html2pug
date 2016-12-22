@@ -12,3 +12,15 @@ Node.js 5.0+ minimum. Uses depth-first search for DOM tree traversal, and ES6 ge
 ```
 node lib/cli.js -f /path/to/file.php
 ```
+
+or 
+
+```
+const php2pug = require('../lib');
+
+const generatePug = php2pug("<div><?php echo 'Hello World'; ?></div>");
+
+generatePug.then(function (pugText) {
+    // pugText: div !{"<?php echo 'Hello World';  ?>"}
+});
+```
