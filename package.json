@@ -1,6 +1,6 @@
 {
-  "name": "html2pug",
-  "version": "0.2.1",
+  "name": "php2pug",
+  "version": "0.3.0",
   "description": "Converts HTML to Pug",
   "main": "lib/index.js",
   "bin": {
@@ -14,25 +14,36 @@
     "minimist": "^1.2.0",
     "parse5": "^2.1.5"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/izolate/html2pug.git"
+    "url": "git+ssh://git@github.com/khalidhoffman/php2pug.git"
   },
   "keywords": [
+    "php",
     "html",
     "pug",
     "jade",
     "convert",
     "templates"
   ],
-  "author": "izolate <yoshtalwar@gmail.com> (http://izolate.net/)",
+  "contributors": [
+    {
+      "name": "izolate",
+      "email": "yoshtalwar@gmail.com",
+      "url": "http://izolate.net/"
+    },
+    {
+      "name": "khalidhoffman",
+      "email": "khalidhoffman@gmail.com>",
+      "url": "http://khalidhoffman.info"
+    }
+  ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/izolate/html2pug/issues"
+    "url": "https://github.com/khalidhoffman/php2pug/issues"
   },
-  "homepage": "https://github.com/izolate/html2pug#readme"
+  "homepage": "https://github.com/khalidhoffman/php2pug#readme"
 }
