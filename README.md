@@ -10,13 +10,13 @@ Node.js 5.0+ minimum. Uses depth-first search for DOM tree traversal, and ES6 ge
     + should be used in conjunction with [pug-php-filter](https://github.com/khalidhoffman/pug-php-filter)
 
 ```
-node lib/cli.js -f /path/to/file.php
+php2pug -f /path/to/file.php
 ```
 
 or 
 
 ```
-const php2pug = require('../lib');
+const php2pug = require('php2pug');
 
 const generatePug = php2pug("<div><?php echo 'Hello World'; ?></div>");
 

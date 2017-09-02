@@ -1,6 +1,6 @@
 {
   "name": "php2pug",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "description": "Converts HTML/PHP to Pug",
   "main": "lib/index.js",
   "bin": {

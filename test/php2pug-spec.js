@@ -1,18 +1,17 @@
-const expect = require('chai').expect;
+const chai = require('chai');
 
-describe("php2pug", function(){
-    const php2pug = require('../lib');
+const php2pug = require('../lib');
 
-    it("can convert php to pug", function(done){
+const expect = chai.expect;
 
+describe("php2pug", function () {
+
+    it("can convert php to pug", function () {
         const sampleText = "<div><?php echo 'Hello World'; ?></div>";
 
-        php2pug(sampleText, {
-                useLib: false
-            })
-            .then(function(pugText) {
+        return php2pug(sampleText, {useLib: false})
+            .then(function (pugText) {
                 expect(pugText).to.eql(`div !{"<?php echo 'Hello World';  ?>"}`);
-                done();
             });
     });
 })
