@@ -1,6 +1,6 @@
 {
   "name": "php2pug",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "description": "Converts HTML/PHP to Pug",
   "main": "lib/index.js",
   "bin": {
@@ -51,6 +51,7 @@
   "homepage": "https://github.com/khalidhoffman/php2pug#readme",
   "devDependencies": {
     "chai": "^3.5.0",
-    "gulp-utils": "https://github.com/khalidhoffman/gulp-utils.git#dev"
+    "gulp-utils": "https://github.com/khalidhoffman/gulp-utils.git#dev",
+    "mocha": "^3.5.0"
   }
 }
